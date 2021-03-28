@@ -26,65 +26,65 @@ const calculator = {
     return n;
   },
 
-  subtract: function(a) {
-    var acc;
-    if (a === undefined) {
-      acc = 0;
-    } else {
-      acc = calculator.result - a;
-      calculator.result = acc;
-    }
-    let n = (b) => {
-      if (b !== undefined) {
-        acc -= b;
-        calculator.result = acc;
-      } else {
-        acc = 0;
-      }
-    return n;
-    }
-    return n;
-  },
+  // subtract: function(a) {
+  //   var acc;
+  //   if (a === undefined) {
+  //     acc = 0;
+  //   } else {
+  //     acc = calculator.result - a;
+  //     calculator.result = acc;
+  //   }
+  //   let n = (b) => {
+  //     if (b !== undefined) {
+  //       acc -= b;
+  //       calculator.result = acc;
+  //     } else {
+  //       acc = 0;
+  //     }
+  //   return n;
+  //   }
+  //   return n;
+  // },
 
-  divide: function(a) {
-    var acc;
-    if (a === undefined) {
-      acc = 0;
-    } else {
-      acc = calculator.result / a;
-      calculator.result = acc;
-    }
-    let n = (b) => {
-      if (b !== undefined) {
-        acc = acc / b;
-        calculator.result = acc;
-      } else {
-        acc = 0;
-      }
-    return n;
-    }
-    return n;
-  },
+  // divide: function(a) {
+  //   var acc;
+  //   if (a === undefined) {
+  //     acc = 0;
+  //   } else {
+  //     acc = calculator.result / a;
+  //     calculator.result = acc;
+  //   }
+  //   let n = (b) => {
+  //     if (b !== undefined) {
+  //       acc = acc / b;
+  //       calculator.result = acc;
+  //     } else {
+  //       acc = 0;
+  //     }
+  //   return n;
+  //   }
+  //   return n;
+  // },
 
-  multiply: function(a) {
-    var acc;
-    if (a === undefined) {
-      acc = 0;
-    } else {
-      acc = calculator.result * a;
-      calculator.result = acc;
-    }
-    let n = (b) => {
-      if (b !== undefined) {
-        acc *= b;
-        calculator.result = acc;
-      } else {
-        acc = 0;
-      }
-    return n;
-    }
-    return n;
-  },
+  // multiply: function(a) {
+  //   var acc;
+  //   if (a === undefined) {
+  //     acc = 0;
+  //   } else {
+  //     acc = calculator.result * a;
+  //     calculator.result = acc;
+  //   }
+  //   let n = (b) => {
+  //     if (b !== undefined) {
+  //       acc *= b;
+  //       calculator.result = acc;
+  //     } else {
+  //       acc = 0;
+  //     }
+  //   return n;
+  //   }
+  //   return n;
+  // },
 } 
   
   module.exports = calculator;
